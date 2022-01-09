@@ -7,17 +7,6 @@ package mod;
 
 public class MergeSort {
 
-    
-    // print array utility
-    public static void print_array(int[] A){
-
-        for(int a: A){
-            System.out.print(a + " ");
-        }
-        System.out.println();
-        
-    }
-
     // recursive merge sort
     public static void sort(int[] A, int left, int right){
     
